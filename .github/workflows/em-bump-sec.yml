@@ -19,8 +19,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: em489-1
-          repository: 'mfaizanse/eventing-manager'
+          ref: main
+          repository: 'kyma-project/eventing-manager'
   
       - uses: actions/setup-go@v5
         with:
