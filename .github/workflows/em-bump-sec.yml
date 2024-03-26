@@ -13,14 +13,14 @@ jobs:
     name: Bump sec-scanners-config.yaml on main branch
     runs-on: ubuntu-latest
     env:
-      VERSION: "1.1.0"
+      VERSION: "1.2.0"
   
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: main
-          repository: 'kyma-project/eventing-manager'
+          ref: em489-1
+          repository: 'mfaizanse/eventing-manager'
   
       - uses: actions/setup-go@v5
         with:
